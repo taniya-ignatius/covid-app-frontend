@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import NavBar from './NavBar'
 
 const AddPatient = () => {
         const [input, setInput] = new useState(
@@ -38,6 +39,7 @@ const AddPatient = () => {
             }
   return (
     <div>
+        <NavBar/><br></br>
         <div className="container">
             <div className="row g-3">
                 <div className="col col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
